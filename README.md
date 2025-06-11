@@ -1,6 +1,6 @@
 # AlyssaWebScraperXD:
 
-## Notes Doc: 
+## Notes Google Doc: 
 https://docs.google.com/document/d/11K5CPvWPZ-761XSf8xqpagfHusrX0d1JNm1lz2NGISQ/edit?usp=sharing
 
 ## Stack:
@@ -39,10 +39,7 @@ Process repeats daily or on user demand
 ## Selenium with Python: 
 https://www.selenium.dev/documentation/
 
-### Python Bindings:
-https://selenium-python.readthedocs.io/
-
-### Selectors Reference (CSS/XPath):
+## Selectors Reference (CSS/XPath):
 https://www.w3schools.com/cssref/css_selectors.asp
 https://www.w3schools.com/xml/xpath_syntax.asp
 
@@ -60,7 +57,8 @@ https://docs.python.org/3/library/csv.html
 https://docs.python.org/3/library/sqlite3.html
 
 ## UI Docs:
-### Streamlit (recommended)
+### Streamlit (recommended):
+
 Streamlit Docs:
 https://docs.streamlit.io/
 
