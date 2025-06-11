@@ -1,20 +1,3 @@
-# VENV SETUP INSTRUCTIONS:
-
-# Make sure Python 3.9+ is installed
-#    https://www.python.org/downloads/
-#    To check: python --version or python3 --version
-
-# Create a virtual environment in your project folder:
-#    python -m venv venv
-#    (or: python3 -m venv venv)
-
-# Activate the virtual environment:
-#    On Windows: venv\Scripts\activate
-#    On Mac/Linux: source venv/bin/activate
-
-# Exit the virtual environment when done:
-#    deactivate
-
 selenium==4.15.2
 pandas==2.2.2
 streamlit==1.35.0
