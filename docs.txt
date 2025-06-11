@@ -1,0 +1,32 @@
+# what to put in docs:
+
+# User Guide Highlights
+- How to run the script manually
+- How to open the Streamlit dashboard
+- How to read each field (ex: "Simple Status" = quoted / declined / bound)
+- Common errors and how to fix them
+- Glossary: Eff Date, Target Property, etc.
+
+# Suggestions/Help Boxes
+- In UI: show a little “?” tooltip next to each confusing column
+- Example: “Target Property?” → hover = “The estimated premium value for property line”
+
+# This is the preliminary logic so far:
+AlyssaWebScraper/
+├── scraper/
+│   ├── __init__.py
+│   ├── selenium_scraper.py     # For scraping the renewal portal
+│   └── parser.py               # For cleaning/transforming data
+├── storage/
+│   ├── __init__.py
+│   └── save.py                 # For saving to JSON/CSV
+├── alerts/
+│   ├── __init__.py
+│   └── alert_scheduler.py      # For quote due reminders
+├── ui/
+│   └── streamlit_app.py        # Interactive UI
+├── data/                       # Folder for CSV/JSON data
+├── run.py                      # Master script to run scraper + storage
+├── README.md                   # Project description & usage guide
+└── requirements.txt            # Dependency list
+
