@@ -35,6 +35,54 @@ Users interact → apply filters, add comments, etc.
 
 Process repeats daily or on user demand
 
+# Set Up and How to Run Stuff:
+---
+
+## VENV SETUP & RUNNING INSTRUCTIONS
+
+- Make sure Python 3.9+ is installed: https://www.python.org/downloads/
+- Check version: `python --version` or `python3 --version`
+
+### Set up your virtual environment:
+
+1. Create the environment:
+   ```bash
+   python -m venv venv
+   ```
+2. Activate it:
+   - On **Windows**:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On **Mac/Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Run the components:
+
+- Run the scraper:
+  ```bash
+  python run.py
+  ```
+
+- Run the Streamlit dashboard:
+  ```bash
+  streamlit run ui/streamlit_app.py
+  ```
+
+4. When done, deactivate:
+   ```bash
+   deactivate
+   ```
+
+---
+
 # Documentation for Devs to Look at
 ## Selenium with Python: 
 https://www.selenium.dev/documentation/
