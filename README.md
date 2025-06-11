@@ -92,16 +92,16 @@ https://www.w3schools.com/cssref/css_selectors.asp
 https://www.w3schools.com/xml/xpath_syntax.asp
 
 ## Data Parsing, Cleaning, and Storage:
-### Pandas (for CSV/JSON processing):
+Pandas (for CSV/JSON processing):
 https://pandas.pydata.org/docs/
 
-### Python json module (standard lib):
+Python json module (standard lib):
 https://docs.python.org/3/library/json.html
 
-### Python csv module (standard lib):
+Python csv module (standard lib):
 https://docs.python.org/3/library/csv.html
 
-### SQLite (optional SQL storage):
+SQLite (optional SQL storage):
 https://docs.python.org/3/library/sqlite3.html
 
 ## UI Docs:
@@ -117,16 +117,16 @@ Streamlit Cloud Deployment:
 https://docs.streamlit.io/streamlit-cloud/get-started
 
 ## Alerting Logic:
-### schedule module (Python job scheduler):
+schedule module (Python job scheduler):
 https://schedule.readthedocs.io/en/stable/
 
-### Email with smtplib:
+Email with smtplib:
 https://realpython.com/python-send-email/
 
 ## Project Management & Docs: 
-### Markdown Reference (for docs):
+Markdown Reference (for docs):
 https://www.markdownguide.org/basic-syntax/
 
-### Swagger (for API if you want to build one):
+Swagger (for API if you want to build one):
 https://swagger.io/tools/swagger-ui/
 
