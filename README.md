@@ -7,4 +7,4 @@ https://docs.google.com/document/d/11K5CPvWPZ-761XSf8xqpagfHusrX0d1JNm1lz2NGISQ/
 
 ## Logic Flow
 
-## Documentation for Tech People to Look at
+## Documentation for Devs to Look at
